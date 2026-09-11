@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathiyanathan Keshan - CV</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #2563eb;
+            --text-dark: #1f2937;
+            --text-muted: #4b5563;
+            --bg-light: #f8fafc;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding: 30px 15px;
+        }
+
+        .resume-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .contact-info a {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.15rem;
+            text-transform: uppercase;
+            color: var(--primary);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 6px;
+            margin-bottom: 15px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .profile-text {
+            color: var(--text-dark);
+            text-align: justify;
+        }
+
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .badge {
+            background-color: #eff6ff;
+            color: var(--secondary);
+            border: 1px solid #bfdbfe;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.88rem;
+            font-weight: 600;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .item-role {
+            font-size: 1.05rem;
+        }
+
+        .item-date {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .item-company {
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+            color: var(--text-dark);
+        }
+
+        .award-box {
+            background-color: #fefce8;
+            border-left: 4px solid #eab308;
+            padding: 12px 15px;
+            font-weight: 600;
+            color: #854d0e;
+            border-radius: 4px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .ref-card {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            padding: 15px;
+            border-radius: 6px;
+        }
+
+        .ref-card strong {
+            display: block;
+            color: var(--primary);
+            font-size: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .resume-container {
+                padding: 20px;
+            }
+
+            .item-header {
+                flex-direction: column;
+            }
+
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <header>
+            <h1>SATHIYANATHAN KESHAN</h1>
+            <div class="subtitle">Graduate in Cyber Security</div>
+            <div class="contact-info">
+                <span>📞 0766407526</span>
+                <span>✉️ <a href="mailto:keshansathya@gmail.com">keshansathya@gmail.com</a></span>
+                <span>📍 No:3/1-4/1, Ramakrishna Terrace, Wellawatte</span>
+                <span>🔗 <a href="https://www.linkedin.com/in/keshan-sathiyanathan-b065bb309/" target="_blank">LinkedIn Profile</a></span>
+            </div>
+        </header>
+
+        <div class="section">
+            <div class="section-title">Profile</div>
+            <p class="profile-text">
+                An adaptable, forward-thinking and committed individual who is able to identify and resolve network system issues and has good knowledge in system installation, configuration, and maintenance. Highly keen on finding a challenging position to utilize existing knowledge to come up with practical solutions towards outstanding achievements.
+            </p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Expertise & Technical Skills</div>
+            <div class="badge-container">
+                <span class="badge">Networking</span>
+                <span class="badge">System Administration</span>
+                <span class="badge">Hardware Technician</span>
+                <span class="badge">PC Maintenance</span>
+                <span class="badge">Software Installation</span>
+                <span class="badge">Resolving Network Issues</span>
+                <span class="badge">Troubleshooting</span>
+                <span class="badge">Critical Thinking</span>
+                <span class="badge">Problem Solving</span>
+                <span class="badge">Teamwork</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Awards</div>
+            <div class="award-box">
+                🏆 Achieved Gold Medal for the best performer and batch top in Qualifi Level 5 Extended Diploma in IT-Networking
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">ASSOCIATE IT SUPPORT ASSISTANT</span>
+                    <span class="item-date">26.06.2026 – 31.08.2026</span>
+                </div>
+                <div class="item-company">ENEXE (Pvt) Ltd.</div>
+                <ul>
+                    <li>Providing first-line IT support by answering help desk calls and troubleshooting hardware and software issues.</li>
+                    <li>Managing endpoint security by updating and monitoring antivirus software.</li>
+                    <li>Maintaining device information and antivirus records using Microsoft Excel.</li>
+                    <li>Assisting with Microsoft Intune for endpoint management and device administration.</li>
+                    <li>Performing Windows 11 updates and patch management to ensure system security and compliance.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">IT INTERN</span>
+                    <span class="item-date">19.09.2025 – 06.03.2026</span>
+                </div>
+                <div class="item-company">Citizens Development Business Finance PLC, Colombo 10</div>
+                <ul>
+                    <li>Upgraded operating systems from Windows 10 to Windows 11 and performed fresh OS installations with driver setups.</li>
+                    <li>Configured free IP addresses and created network domains.</li>
+                    <li>Handled new laptop setups, Samsung tablet resets, app installations, and updates.</li>
+                    <li>Performed SSD cloning to another SSD or hard drive.</li>
+                    <li>Executed mini PC replacements and resolved TV display issues.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">HARDWARE TECHNICIAN</span>
+                    <span class="item-date">20.01.2020 – 25.10.2021</span>
+                </div>
+                <div class="item-company">Kalkudah Zonal Information Communication Technology Education Centre, Kiran</div>
+                <ul>
+                    <li>Provided technical support for desktop-related issues, troubleshooting hardware, software, and Wi-Fi problems.</li>
+                    <li>Performed Windows installation, internet, and email configurations.</li>
+                    <li>Executed repairs, preventive maintenance, and driver installations for personal computers.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">INTERN</span>
+                    <span class="item-date">01.07.2018 – 15.09.2019</span>
+                </div>
+                <div class="item-company">Vavunativu Development Organization - (Guarantee) Ltd</div>
+                <ul>
+                    <li>Provided technical support for computer systems and performed data backups.</li>
+                    <li>Resolved issues caused by viruses and malicious components.</li>
+                    <li>Assisted with clerical documentation and data entry.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education & Qualifications</div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">B.Sc (Hons) Top Up in Cyber Security</span>
+                    <span class="item-date">08.07.2026</span>
+                </div>
+                <div class="item-company">University of Gloucestershire</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">Microsoft Certified Azure Administrator (Reading Certificate)</span>
+                    <span class="item-date">March 2026 onwards</span>
+                </div>
+                <div class="item-company">WinSYS City Campus</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">QUALIFI Level 5 Extended Diploma in IT-Networking</span>
+                    <span class="item-date">10.12.2024</span>
+                </div>
+                <div class="item-company">Qualifi United Kingdom</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">Advanced Diploma in Networking and Cyber Security</span>
+                    <span class="item-date">2023 – 2024</span>
+                </div>
+                <div class="item-company">WinSYS City Campus</div>
+                <ul>
+                    <li>Ethical Hacking (20.10.2024)</li>
+                    <li>Microsoft Certified System Administrator (23.06.2024)</li>
+                    <li>CISCO Certified Network Associate (10.06.2023)</li>
+                    <li>Linux Network Administrator with Security (30.04.2023)</li>
+                    <li>Windows Networks & Computer Hardware (09.04.2023)</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <span class="item-role">Computer Hardware Technician (NVQ Level 3 & 4)</span>
+                    <span class="item-date">2016 – 2019</span>
+                </div>
+                <div class="item-company">VTA & NAITA</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">References</div>
+            <div class="grid-2">
+                <div class="ref-card">
+                    <strong>Mr. S. Sotheeswaran</strong>
+                    <p>Senior Lecturer (Gr I) in Computer Science</p>
+                    <p>Faculty of Science, Eastern University, Sri Lanka</p>
+                    <p>📞 0706023428</p>
+                </div>
+                <div class="ref-card">
+                    <strong>Mr. Ziyam Abdeen</strong>
+                    <p>Chairman</p>
+                    <p>WinSYS Networks (Pvt) Ltd, Colombo 04</p>
+                    <p>📞 0777860687</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
